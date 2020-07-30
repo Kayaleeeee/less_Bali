@@ -1,0 +1,105 @@
+* {
+	margin: auto;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	display: inline;
+}
+
+.outline {
+	display: flex;
+	margin: auto;
+	height: 900px;
+	overflow: hidden;
+	background-color: lightgray;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	width: 1040px;
+	height: 650px;
+	background-color: #fffef6f3;
+	border-radius: 20px;
+	box-shadow: 10px 14px 26px -9px rgba(0, 0, 0, 0.75);
+
+	nav {
+		font-family: "Montserrat", sans-serif;
+		width: 1040px;
+		height: 50px;
+		position: absolute;
+		top: 10px;
+		float: left;
+		display: flex;
+
+		#navT {
+			width: 30px;
+		}
+		.middle {
+			font-family: "Montserrat", sans-serif;
+			display: flex;
+			width: 300px;
+			margin: auto;
+			font-weight: lighter;
+			h4 {
+				letter-spacing: 2px;
+				text-align: center;
+				display: inline;
+			}
+		}
+
+		h3 {
+			letter-spacing: 9px;
+			font-size: 2rem;
+			display: inline;
+		}
+	}
+	h1 {
+		font-family: "Abril Fatface", cursive;
+		font-size: 11rem;
+		letter-spacing: 10px;
+		// margin-top: 9rem;
+		margin-left: 3rem;
+
+		&:hover {
+			color: cornflowerblue;
+			transition: ease-in 0.3s;
+		}
+	}
+}
+
+.content {
+	width: 100%;
+	display: inline;
+	img {
+		display: block;
+		padding-right: 1rem;
+		width: 350px;
+		height: 340px;
+	}
+}
+.pic {
+	font-family: "Sacramento", cursive;
+	margin-left: 500px;
+	margin-right: 0px;
+	padding-top: 4.5rem;
+	display: flex;
+	overflow: hidden;
+	p {
+		font-size: 30px;
+	}
+}
+
+.rightconner {
+	h3 {
+		transform: rotate(-90deg);
+		position: absolute;
+		margin: auto;
+		top: 40%;
+		font-weight: lighter;
+		letter-spacing: 5px;
+	}
+}

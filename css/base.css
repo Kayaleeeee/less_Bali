@@ -1,0 +1,55 @@
+* {
+	margin: auto;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: white;
+	display: inline;
+}
+.outline {
+	display: flex;
+	margin: auto;
+	height: 900px;
+	overflow: hidden;
+	background-color: lightgray;
+}
+.container {
+	position: relative;
+	display: flex;
+	width: 1040px;
+	height: 650px;
+	background-color: rgb(34, 58, 34);
+	border-radius: 20px;
+	box-shadow: 10px 14px 26px -9px rgba(0, 0, 0, 0.75);
+}
+.container nav {
+	font-family: "Montserrat", sans-serif;
+	width: 1040px;
+	height: 50px;
+	position: absolute;
+	top: 10px;
+	float: left;
+	display: flex;
+}
+#navT {
+	width: 30px;
+}
+.container nav .middle {
+	font-family: "Montserrat", sans-serif;
+	display: flex;
+	width: 300px;
+	margin: auto;
+	font-weight: lighter;
+}
+.container nav .middle h4 {
+	letter-spacing: 2px;
+	text-align: center;
+	display: inline;
+}
+.container nav h3 {
+	color: white;
+	letter-spacing: 9px;
+	font-size: 2rem;
+	display: inline;
+}

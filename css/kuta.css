@@ -1,0 +1,10 @@
+image {
+	overflow: hidden;
+}
+
+div.img {
+	width: 1040px;
+	height: 650px;
+	overflow: hidden;
+	border-radius: 20px;
+}
