@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../css/less.css" />
-        <link rel="stylesheet" href="../css/kuta.css">
+		<link rel="stylesheet" href="../css/kuta.css">
+		<link rel="stylesheet" href="../css/base.css" />
+
 		<link
 			href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
 			rel="stylesheet"
@@ -25,10 +26,12 @@
 	</head>
 	<body>
 		<div class="outline">
-			<div class="container">
+			<div id= 'container' class="container">
 				<nav>
-					<div class="left"><h3>Bali</h3></div>
+					<div class="left"><h3 id='navL'>Kuta</h3></div>
 					<div class="middle">
+						<a href="index.html"><h4>Home</h4>
+						</a>
 						<a href="ubut.html"><h4>Ubut</h4></a>
 						<a href="kuta.html"><h4>Kuta</h4></a>
 						<a href="gili.html"><h4>Gili</h4></a>
@@ -41,11 +44,14 @@
 				</nav>
 
 
-                    <div class="img">
-                        <img src="../imagessource/ubut3.jpg" width="1040px" alt="">
+                    <div class="img" id='back_img'>
+					<div >
+						<img id="pop" src="../imagessource/IMG_0283.jpg" alt="">
+					</div>
                     </div>
 				</div>
 			</div>
 		</div>
+		<script src="../javascript/kuta.js"></script>
 	</body>
 </html>

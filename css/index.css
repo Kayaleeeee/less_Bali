@@ -1,0 +1,49 @@
+nav a {
+	color: black;
+}
+.left h3 {
+	color: black;
+}
+
+.container {
+	background-color: rgb(255, 252, 242);
+}
+.container h1 {
+	font-family: "Abril Fatface", cursive;
+	font-size: 11rem;
+	letter-spacing: 10px;
+	margin-left: 3rem;
+}
+.container h1:hover {
+	color: cornflowerblue;
+	transition: ease-in 0.3s;
+}
+.content {
+	width: 100%;
+	display: inline;
+}
+.content img {
+	display: block;
+	padding-right: 1rem;
+	width: 350px;
+	height: 340px;
+}
+.pic {
+	font-family: "Sacramento", cursive;
+	margin-left: 500px;
+	margin-right: 0px;
+	padding-top: 4.5rem;
+	display: flex;
+	overflow: hidden;
+}
+.pic p {
+	font-size: 30px;
+}
+.rightconner h3 {
+	transform: rotate(-90deg);
+	position: absolute;
+	margin: auto;
+	top: 40%;
+	font-weight: lighter;
+	letter-spacing: 5px;
+}

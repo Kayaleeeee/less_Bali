@@ -2,9 +2,32 @@ image {
 	overflow: hidden;
 }
 
-div.img {
-	width: 1040px;
-	height: 650px;
-	overflow: hidden;
-	border-radius: 20px;
+.container {
+	/* background: url(); */
+	background: url(../imagessource/ubut3.jpg);
+	background-size: cover;
+}
+
+#pop,
+.img {
+	width: 600px;
+	height: 400px;
+	z-index: 999999;
+}
+
+#pop {
+	display: none;
+}
+
+.remove {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+#upper_img {
+	display: none;
+	width: 800px;
 }

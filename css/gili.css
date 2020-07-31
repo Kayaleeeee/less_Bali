@@ -1,0 +1,18 @@
+.back_video {
+	width: 1040px;
+	height: 650px;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 20px;
+	z-index: 1;
+}
+
+nav a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+video {
+	overflow: hidden;
+	width: 1300px;
+}
